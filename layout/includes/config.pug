@@ -14,7 +14,9 @@
         hits_stats: _p("algolia_search.hits_stats")
       }
     })
-  } 
+  } else {
+    algolia = 'false'
+  }
   
   var localSearch = 'undefined';
   if (theme.local_search && theme.local_search.enable) {
@@ -25,7 +27,10 @@
         hits_empty: _p("local_search.hits_empty")
       }
     })
+  } else {
+    localSearch = 'false'
   }
+
   var translate = 'undefined';
   if (theme.translate && theme.translate.enable){
     var defaultEncoding;
@@ -36,6 +41,8 @@
       msgToTraditionalChinese: theme.translate.msgToTraditionalChinese,
       msgToSimplifiedChinese: theme.translate.msgToSimplifiedChinese
     })
+  } else {
+    translate = 'false'
   }
 
 
