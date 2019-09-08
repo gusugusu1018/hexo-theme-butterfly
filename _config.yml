@@ -129,8 +129,8 @@ cdn:
 
 # Post info settings
 # ---------------
-# avatar: /img/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
+avatar: /img/avatar.png
+# avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
 
 # the banner image of index
 # if the banner of another page not setting,it will show the top_img
